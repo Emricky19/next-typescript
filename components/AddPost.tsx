@@ -14,7 +14,7 @@ const AddPost = ({savePost} : Props) => {
 
         setFormData({
             ...formData,
-            [id]: value
+              [id]: value
         })
     }
     return (
